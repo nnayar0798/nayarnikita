@@ -156,7 +156,10 @@
 
     /* BLOG */
     .blog-wrap { max-width:1160px; margin:0 auto; padding:6rem 4rem; }
-    .blog-g { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:2.5rem; }
+    .blog-g {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
     .bc { border-top:2px solid var(--border); padding-top:1.4rem; text-decoration:none; color:inherit; display:block; transition:transform .2s; }
     .bc:hover { transform:translateY(-3px); }
     .bc:hover .bc-ttl { color:var(--terra); }
